@@ -16,6 +16,27 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "no-console": "off"
+        "no-console": "off",
+        "camelcase": "off",
+        "no-unused-vars": "off",
+        "no-async-promise-executor": "off",
+        "prefer-promise-reject-errors": "off",
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+                "js": "never",
+                "jsx": "never",
+                "ts": "never",
+                "tsx": "never"
+            }
+        ]
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".ts",".js"]
+            }
+        }
     }
 }
