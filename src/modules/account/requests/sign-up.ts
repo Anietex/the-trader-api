@@ -4,6 +4,10 @@ import UserRepository from '../repositories/UserRepository';
 const userRepository = new UserRepository();
 
 export default () => [
+  body('company_name')
+    .exists({ checkFalsy: true })
+    .trim()
+    .escape(),
   body('first_name')
     .exists({ checkFalsy: true })
     .trim()
