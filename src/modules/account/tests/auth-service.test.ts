@@ -11,7 +11,6 @@ describe('Auth Service', () => {
       password: 'password',
     };
     const user = await userService.createUser(userData);
-
     const authData = await authService.login({
       email: userData.email,
       password: userData.password,

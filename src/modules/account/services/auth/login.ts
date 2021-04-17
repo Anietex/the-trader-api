@@ -13,7 +13,9 @@ export default (userRepository: UserRepository,
       const token = jwt.sign({ xcvio: user.id });
       await userRepository.update({ _id: user.id }, { auth_tokens: [token] });
       const companyUser = await companyUserRepository.getCompanyUser({ user: user.id });
-      user.set('company', companyUser.company, { strict: false });
+      if (companyUser) {
+        user.set('company', companyUser.company, { strict: false });
+      }
       return {
         token,
         user,

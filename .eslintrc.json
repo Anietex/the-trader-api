@@ -21,6 +21,8 @@
         "no-unused-vars": "off",
         "no-async-promise-executor": "off",
         "prefer-promise-reject-errors": "off",
+        "import/no-unresolved": "off",
+        "no-underscore-dangle": "off",
         "import/extensions": [
             "error",
             "ignorePackages",
@@ -35,7 +37,8 @@
     "settings": {
         "import/resolver": {
             "node": {
-                "extensions": [".ts",".js"]
+                "extensions": [".ts",".js"],
+                "paths": ["src"]
             }
         }
     }

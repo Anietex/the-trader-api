@@ -7,7 +7,7 @@ const schema = new Schema({
   },
   accepted_coins: {
     type: Schema.Types.Array,
-    required: false,
+    required: true,
   },
   status: {
     type: String,

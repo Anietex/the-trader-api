@@ -1,15 +1,12 @@
-import path from 'path';
+import 'module-alias/register';
 import express, { Express, Request, Response } from 'express';
 import helmet from 'helmet';
 import dotenv from 'dotenv';
 import cors from 'cors';
-
 import './config/database';
 import './global-types';
-
 import IndexController from './modules/IndexController';
 import accountRoutes from './modules/account/routes';
-import Logger from './utils/logger';
 
 dotenv.config();
 

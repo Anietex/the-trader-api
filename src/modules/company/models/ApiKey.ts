@@ -21,6 +21,11 @@ const schema = new Schema({
     type: Date,
     required: false,
   },
+  env: {
+    type: String,
+    enum: ['production', 'test'],
+    required: true,
+  },
   deleted_at: {
     type: Date,
     required: false,
@@ -35,3 +40,4 @@ const schema = new Schema({
 });
 
 const ApiKey = model('ApiKey', schema, 'api_keys');
+export default ApiKey;

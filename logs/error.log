@@ -1,0 +1,52 @@
+2021-04-04 13:37:35:3735 [31merror[39m: User validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2021-04-04 13:40:28:4028 [31merror[39m: User validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2021-04-04 13:41:28:4128 [31merror[39m: [31mUser validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.[39m
+2021-04-04 13:43:14:4314 [31merror[39m: [31mUser validation failed: first_name: Path `first_name` is required., last_name: Path `last_name` is required.[39m
+2021-04-04 14:12:16:1216 [31merror[39m: [31mCannot set headers after they are sent to the client[39m
+2021-04-04 14:16:02:162 [31merror[39m: [31mCannot set headers after they are sent to the client[39m
+2021-04-07 06:39:50:3950 [31merror[39m: [31mCompany validation failed: name: Path `name` is required.[39m
+2021-04-07 06:39:51:3951 [31merror[39m: [31mCannot read property 'company' of null[39m
+2021-04-07 06:47:50:4750 [31merror[39m: [31mCompany validation failed: name: Path `name` is required.[39m
+2021-04-07 06:47:50:4750 [31merror[39m: [31mUnable to create user account at the moment[39m
+2021-04-07 06:47:50:4750 [31merror[39m: [31mCannot set headers after they are sent to the client[39m
+2021-04-07 06:47:53:4753 [31merror[39m: [31mCompany validation failed: name: Path `name` is required.[39m
+2021-04-07 06:47:53:4753 [31merror[39m: [31mUnable to create user account at the moment[39m
+2021-04-07 06:47:53:4753 [31merror[39m: [31mCannot set headers after they are sent to the client[39m
+2021-04-07 06:47:55:4755 [31merror[39m: [31mCompany validation failed: name: Path `name` is required.[39m
+2021-04-07 06:47:55:4755 [31merror[39m: [31mUnable to create user account at the moment[39m
+2021-04-07 06:47:55:4755 [31merror[39m: [31mCannot set headers after they are sent to the client[39m
+2021-04-07 06:47:56:4756 [31merror[39m: [31mCompany validation failed: name: Path `name` is required.[39m
+2021-04-07 06:47:56:4756 [31merror[39m: [31mUnable to create user account at the moment[39m
+2021-04-07 06:47:56:4756 [31merror[39m: [31mCannot set headers after they are sent to the client[39m
+2021-04-07 06:49:14:4914 [31merror[39m: [31mCompany validation failed: name: Path `name` is required.[39m
+2021-04-07 06:49:14:4914 [31merror[39m: [31mUnable to create user account at the moment[39m
+2021-04-07 18:25:51:2551 [31merror[39m: [31mCannot read property 'company' of null[39m
+2021-04-07 18:37:29:3729 [31merror[39m: [31mCannot read property 'company' of null[39m
+2021-04-07 18:37:31:3731 [31merror[39m: [31mCompany validation failed: name: Path `name` is required.[39m
+2021-04-07 18:39:10:3910 [31merror[39m: [31mCannot read property 'company' of null[39m
+2021-04-07 18:39:11:3911 [31merror[39m: [31mCompany validation failed: name: Path `name` is required.[39m
+2021-04-07 18:44:55:4455 [31merror[39m: [31mCannot read property 'company' of null[39m
+2021-04-07 18:44:56:4456 [31merror[39m: [31mCompany validation failed: name: Path `name` is required.[39m
+2021-04-07 18:45:49:4549 [31merror[39m: [31mCompany validation failed: name: Path `name` is required.[39m
+2021-04-07 18:45:49:4549 [31merror[39m: [31mCannot read property 'company' of null[39m
+2021-04-07 18:51:28:5128 [31merror[39m: [31mCompany validation failed: name: Path `name` is required.[39m
+2021-04-07 19:17:13:1713 [31merror[39m: [31m-- Error Creating app --[39m
+2021-04-07 19:17:13:1713 [31merror[39m: [31mValidation failed: company: Path `company` is required.[39m
+2021-04-07 19:17:46:1746 [31merror[39m: [31m-- Error Creating app --[39m
+2021-04-07 19:17:46:1746 [31merror[39m: [31mValidation failed: company: Path `company` is required.[39m
+2021-04-07 19:18:13:1813 [31merror[39m: [31m-- Error Creating app --[39m
+2021-04-07 19:18:13:1813 [31merror[39m: [31mValidation failed: created_by: Path `created_by` is required., company: Path `company` is required., name: Path `name` is required.[39m
+2021-04-07 19:20:00:200 [31merror[39m: [31m-- Error Creating app --[39m
+2021-04-07 19:20:00:200 [31merror[39m: [31mValidation failed: created_by: Path `created_by` is required., company: Path `company` is required., name: Path `name` is required.[39m
+2021-04-07 19:21:59:2159 [31merror[39m: [31m-- Error Creating app --[39m
+2021-04-07 19:21:59:2159 [31merror[39m: [31mValidation failed: created_by: Path `created_by` is required., company: Path `company` is required., name: Path `name` is required.[39m
+2021-04-07 19:30:03:303 [31merror[39m: [31m-- Error Creating app --[39m
+2021-04-07 19:30:03:303 [31merror[39m: [31mValidation failed: created_by: Path `created_by` is required., company: Path `company` is required., name: Path `name` is required.[39m
+2021-04-07 19:30:28:3028 [31merror[39m: [31m-- Error Creating app --[39m
+2021-04-07 19:30:28:3028 [31merror[39m: [31mValidation failed: created_by: Path `created_by` is required., company: Path `company` is required., name: Path `name` is required.[39m
+2021-04-17 22:56:33:5633 [31merror[39m: [31m-- Error Creating API key --[39m
+2021-04-17 22:56:33:5633 [31merror[39m: [31mApiKey validation failed: created_by: Path `created_by` is required., app: Path `app` is required.[39m
+2021-04-17 22:57:14:5714 [31merror[39m: [31m-- Error Creating API key --[39m
+2021-04-17 22:57:14:5714 [31merror[39m: [31mApiKey validation failed: created_by: Cast to ObjectId failed for value "" at path "created_by", app: Path `app` is required.[39m
+2021-04-17 23:05:14:514 [31merror[39m: [31m-- Error Creating API key --[39m
+2021-04-17 23:05:14:514 [31merror[39m: [31mApiKey validation failed: app: Path `app` is required.[39m
