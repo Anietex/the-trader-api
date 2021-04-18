@@ -24,6 +24,7 @@ export default (apiKeyRepository: ApiKeyRepository) => async (data: any) => {
     return {
       id: apiKey.id,
       key: apiKey.key,
+      env: apiKey.env,
       secret,
       status: apiKey.status,
     };

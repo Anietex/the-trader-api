@@ -3,6 +3,7 @@ import appService from '@/modules/company/services/app';
 import apiKeyService from '@/modules/company/services/api-key';
 import { Request, Response } from 'express';
 import CompanyUserRepository from '@/modules/company/repositories/CompanyUserRepository';
+import Logger from '@/app/utils/logger';
 
 class AppController extends BaseController {
    createApp = async (req : Request, res: Response) => {
@@ -39,6 +40,19 @@ class AppController extends BaseController {
        }
      } catch (e) {
        res.status(500).json(this.error(e));
+     }
+   }
+
+   public getCompanyApps = async (req: Request, res: Response) => {
+     try {
+       const { user } = req;
+       const companyUser = await (new CompanyUserRepository()).getCompanyUser({ user: user._id });
+       const criteria = { company: companyUser.company._id };
+       const apps = await appService.listApps(criteria);
+       res.json(this.success(apps));
+     } catch (e) {
+       Logger.error(e);
+       res.status(500).json(this.error('Unable to list users at the moment'));
      }
    }
 

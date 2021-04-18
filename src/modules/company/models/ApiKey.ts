@@ -26,6 +26,11 @@ const schema = new Schema({
     enum: ['production', 'test'],
     required: true,
   },
+  status: {
+    type: String,
+    enum: ['active', 'deactivated'],
+    default: 'active',
+  },
   deleted_at: {
     type: Date,
     required: false,

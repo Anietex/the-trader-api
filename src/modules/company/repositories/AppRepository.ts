@@ -50,4 +50,38 @@ export default class AppRepository extends BaseRepository {
 
     return null;
   }
+
+  public getApps(criteria: any) {
+    return this.Model.aggregate(
+      [
+        { $match: criteria },
+        {
+          $lookup: {
+            from: 'apps_setting',
+            localField: '_id',
+            foreignField: 'app',
+            as: 'app_setting',
+          },
+        },
+        {
+          $lookup: {
+            from: 'api_keys',
+            localField: '_id',
+            foreignField: 'app',
+            as: 'api_keys',
+          },
+        },
+        {
+          $lookup: {
+            from: 'users',
+            localField: 'created_by',
+            foreignField: '_id',
+            as: 'created_by',
+          },
+        },
+        { $unwind: { path: '$app_setting', preserveNullAndEmptyArrays: true } },
+        { $unwind: { path: '$created_by', preserveNullAndEmptyArrays: true } },
+      ],
+    );
+  }
 }

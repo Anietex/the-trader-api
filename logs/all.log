@@ -440,3 +440,235 @@
 [32m    }[39m
 [32m  }[39m
 [32m}[39m
+2021-04-19 00:00:48:048 [32minfo[39m: [32m{[39m
+[32m  apps: [[39m
+[32m    {[39m
+[32m      _id: 607cae3b6d30cc695ae4302f,[39m
+[32m      name: 'BitApp',[39m
+[32m      company: 606d47ef2e42f30bc5cfca0f,[39m
+[32m      created_by: [Object],[39m
+[32m      created_at: 2021-04-18T22:10:03.270Z,[39m
+[32m      updated_at: 2021-04-18T22:10:03.270Z,[39m
+[32m      __v: 0,[39m
+[32m      app_setting: [Object],[39m
+[32m      api_keys: [][39m
+[32m    },[39m
+[32m    {[39m
+[32m      _id: 607cafca1fce6f7249d4f746,[39m
+[32m      name: 'BitApp',[39m
+[32m      company: 606d47ef2e42f30bc5cfca0f,[39m
+[32m      created_by: [Object],[39m
+[32m      created_at: 2021-04-18T22:16:42.854Z,[39m
+[32m      updated_at: 2021-04-18T22:16:42.854Z,[39m
+[32m      __v: 0,[39m
+[32m      app_setting: [Object],[39m
+[32m      api_keys: [][39m
+[32m    },[39m
+[32m    {[39m
+[32m      _id: 607caff8b2f43c733f7e716c,[39m
+[32m      name: 'BitApp',[39m
+[32m      company: 606d47ef2e42f30bc5cfca0f,[39m
+[32m      created_by: [Object],[39m
+[32m      created_at: 2021-04-18T22:17:28.222Z,[39m
+[32m      updated_at: 2021-04-18T22:17:28.222Z,[39m
+[32m      __v: 0,[39m
+[32m      app_setting: [Object],[39m
+[32m      api_keys: [][39m
+[32m    },[39m
+[32m    {[39m
+[32m      _id: 607cb28c6a384082cb143da6,[39m
+[32m      name: 'BitApp',[39m
+[32m      company: 606d47ef2e42f30bc5cfca0f,[39m
+[32m      created_by: [Object],[39m
+[32m      created_at: 2021-04-18T22:28:28.011Z,[39m
+[32m      updated_at: 2021-04-18T22:28:28.011Z,[39m
+[32m      __v: 0,[39m
+[32m      app_setting: [Object],[39m
+[32m      api_keys: [Array][39m
+[32m    },[39m
+[32m    {[39m
+[32m      _id: 607cb2fcda91c184cbc89d62,[39m
+[32m      name: 'BitApp',[39m
+[32m      company: 606d47ef2e42f30bc5cfca0f,[39m
+[32m      created_by: [Object],[39m
+[32m      created_at: 2021-04-18T22:30:20.032Z,[39m
+[32m      updated_at: 2021-04-18T22:30:20.032Z,[39m
+[32m      __v: 0,[39m
+[32m      app_setting: [Object],[39m
+[32m      api_keys: [Array][39m
+[32m    }[39m
+[32m  ][39m
+[32m}[39m
+2021-04-19 00:04:51:451 [32minfo[39m: [32m{[39m
+[32m  apps: [[39m
+[32m    {[39m
+[32m      _id: 607cae3b6d30cc695ae4302f,[39m
+[32m      name: 'BitApp',[39m
+[32m      company: 606d47ef2e42f30bc5cfca0f,[39m
+[32m      created_by: [Object],[39m
+[32m      created_at: 2021-04-18T22:10:03.270Z,[39m
+[32m      updated_at: 2021-04-18T22:10:03.270Z,[39m
+[32m      __v: 0,[39m
+[32m      app_setting: [Object],[39m
+[32m      api_keys: [][39m
+[32m    },[39m
+[32m    {[39m
+[32m      _id: 607cafca1fce6f7249d4f746,[39m
+[32m      name: 'BitApp',[39m
+[32m      company: 606d47ef2e42f30bc5cfca0f,[39m
+[32m      created_by: [Object],[39m
+[32m      created_at: 2021-04-18T22:16:42.854Z,[39m
+[32m      updated_at: 2021-04-18T22:16:42.854Z,[39m
+[32m      __v: 0,[39m
+[32m      app_setting: [Object],[39m
+[32m      api_keys: [][39m
+[32m    },[39m
+[32m    {[39m
+[32m      _id: 607caff8b2f43c733f7e716c,[39m
+[32m      name: 'BitApp',[39m
+[32m      company: 606d47ef2e42f30bc5cfca0f,[39m
+[32m      created_by: [Object],[39m
+[32m      created_at: 2021-04-18T22:17:28.222Z,[39m
+[32m      updated_at: 2021-04-18T22:17:28.222Z,[39m
+[32m      __v: 0,[39m
+[32m      app_setting: [Object],[39m
+[32m      api_keys: [][39m
+[32m    },[39m
+[32m    {[39m
+[32m      _id: 607cb28c6a384082cb143da6,[39m
+[32m      name: 'BitApp',[39m
+[32m      company: 606d47ef2e42f30bc5cfca0f,[39m
+[32m      created_by: [Object],[39m
+[32m      created_at: 2021-04-18T22:28:28.011Z,[39m
+[32m      updated_at: 2021-04-18T22:28:28.011Z,[39m
+[32m      __v: 0,[39m
+[32m      app_setting: [Object],[39m
+[32m      api_keys: [Array][39m
+[32m    },[39m
+[32m    {[39m
+[32m      _id: 607cb2fcda91c184cbc89d62,[39m
+[32m      name: 'BitApp',[39m
+[32m      company: 606d47ef2e42f30bc5cfca0f,[39m
+[32m      created_by: [Object],[39m
+[32m      created_at: 2021-04-18T22:30:20.032Z,[39m
+[32m      updated_at: 2021-04-18T22:30:20.032Z,[39m
+[32m      __v: 0,[39m
+[32m      app_setting: [Object],[39m
+[32m      api_keys: [Array][39m
+[32m    }[39m
+[32m  ][39m
+[32m}[39m
+2021-04-19 00:04:56:456 [32minfo[39m: [32m{[39m
+[32m  apps: [[39m
+[32m    {[39m
+[32m      _id: 607cae3b6d30cc695ae4302f,[39m
+[32m      name: 'BitApp',[39m
+[32m      company: 606d47ef2e42f30bc5cfca0f,[39m
+[32m      created_by: [Object],[39m
+[32m      created_at: 2021-04-18T22:10:03.270Z,[39m
+[32m      updated_at: 2021-04-18T22:10:03.270Z,[39m
+[32m      __v: 0,[39m
+[32m      app_setting: [Object],[39m
+[32m      api_keys: [][39m
+[32m    },[39m
+[32m    {[39m
+[32m      _id: 607cafca1fce6f7249d4f746,[39m
+[32m      name: 'BitApp',[39m
+[32m      company: 606d47ef2e42f30bc5cfca0f,[39m
+[32m      created_by: [Object],[39m
+[32m      created_at: 2021-04-18T22:16:42.854Z,[39m
+[32m      updated_at: 2021-04-18T22:16:42.854Z,[39m
+[32m      __v: 0,[39m
+[32m      app_setting: [Object],[39m
+[32m      api_keys: [][39m
+[32m    },[39m
+[32m    {[39m
+[32m      _id: 607caff8b2f43c733f7e716c,[39m
+[32m      name: 'BitApp',[39m
+[32m      company: 606d47ef2e42f30bc5cfca0f,[39m
+[32m      created_by: [Object],[39m
+[32m      created_at: 2021-04-18T22:17:28.222Z,[39m
+[32m      updated_at: 2021-04-18T22:17:28.222Z,[39m
+[32m      __v: 0,[39m
+[32m      app_setting: [Object],[39m
+[32m      api_keys: [][39m
+[32m    },[39m
+[32m    {[39m
+[32m      _id: 607cb28c6a384082cb143da6,[39m
+[32m      name: 'BitApp',[39m
+[32m      company: 606d47ef2e42f30bc5cfca0f,[39m
+[32m      created_by: [Object],[39m
+[32m      created_at: 2021-04-18T22:28:28.011Z,[39m
+[32m      updated_at: 2021-04-18T22:28:28.011Z,[39m
+[32m      __v: 0,[39m
+[32m      app_setting: [Object],[39m
+[32m      api_keys: [Array][39m
+[32m    },[39m
+[32m    {[39m
+[32m      _id: 607cb2fcda91c184cbc89d62,[39m
+[32m      name: 'BitApp',[39m
+[32m      company: 606d47ef2e42f30bc5cfca0f,[39m
+[32m      created_by: [Object],[39m
+[32m      created_at: 2021-04-18T22:30:20.032Z,[39m
+[32m      updated_at: 2021-04-18T22:30:20.032Z,[39m
+[32m      __v: 0,[39m
+[32m      app_setting: [Object],[39m
+[32m      api_keys: [Array][39m
+[32m    }[39m
+[32m  ][39m
+[32m}[39m
+2021-04-19 00:09:00:90 [32minfo[39m: [32m{ apiKeys: [] }[39m
+2021-04-19 00:09:00:90 [32minfo[39m: [32m{ apiKeys: [] }[39m
+2021-04-19 00:09:00:90 [32minfo[39m: [32m{ apiKeys: [] }[39m
+2021-04-19 00:09:00:90 [32minfo[39m: [32m{[39m
+[32m  apiKeys: [[39m
+[32m    {[39m
+[32m      _id: 607cb28c6a384082cb143da8,[39m
+[32m      app: 607cb28c6a384082cb143da6,[39m
+[32m      env: 'test',[39m
+[32m      key: 'bIkLtfEGUqXqSGoxKQWd',[39m
+[32m      secret: '$2a$10$OpBOBjHZp.EhYO01ZL6J/.qyw3T5piBmFF/Pw57sUoBex.QJfGLZq',[39m
+[32m      created_by: 606d47ef2e42f30bc5cfca0e,[39m
+[32m      created_at: 2021-04-18T22:28:28.190Z,[39m
+[32m      updated_at: 2021-04-18T22:28:28.190Z,[39m
+[32m      __v: 0[39m
+[32m    },[39m
+[32m    {[39m
+[32m      _id: 607cb28c6a384082cb143da9,[39m
+[32m      app: 607cb28c6a384082cb143da6,[39m
+[32m      env: 'production',[39m
+[32m      key: 'msIMnHOExHqMPmovEQuK',[39m
+[32m      secret: '$2a$10$.P0QV43p.YQIvIQy0MIge.9t8q0a0n0PAlPpYdKM8hcbeoAzl8Bb.',[39m
+[32m      created_by: 606d47ef2e42f30bc5cfca0e,[39m
+[32m      created_at: 2021-04-18T22:28:28.525Z,[39m
+[32m      updated_at: 2021-04-18T22:28:28.525Z,[39m
+[32m      __v: 0[39m
+[32m    }[39m
+[32m  ][39m
+[32m}[39m
+2021-04-19 00:09:00:90 [32minfo[39m: [32m{[39m
+[32m  apiKeys: [[39m
+[32m    {[39m
+[32m      _id: 607cb2fcda91c184cbc89d64,[39m
+[32m      app: 607cb2fcda91c184cbc89d62,[39m
+[32m      env: 'test',[39m
+[32m      key: 'gGRwNqWmKEVJISiLqKKP',[39m
+[32m      secret: '$2a$10$zhdS7aSpNLsbGW1bmSR8TuMJEwJhwsRdUFKENABRr.S2c8mge9O8y',[39m
+[32m      created_by: 606d47ef2e42f30bc5cfca0e,[39m
+[32m      created_at: 2021-04-18T22:30:20.368Z,[39m
+[32m      updated_at: 2021-04-18T22:30:20.368Z,[39m
+[32m      __v: 0[39m
+[32m    },[39m
+[32m    {[39m
+[32m      _id: 607cb2fcda91c184cbc89d65,[39m
+[32m      app: 607cb2fcda91c184cbc89d62,[39m
+[32m      env: 'production',[39m
+[32m      key: 'JdZbMHAneUAOJkWmdwVD',[39m
+[32m      secret: '$2a$10$PDVZioWa7LOTrH813/YKs.djAIWagyri9LF3sWGngrCB5nOQJpvZ2',[39m
+[32m      created_by: 606d47ef2e42f30bc5cfca0e,[39m
+[32m      created_at: 2021-04-18T22:30:20.513Z,[39m
+[32m      updated_at: 2021-04-18T22:30:20.513Z,[39m
+[32m      __v: 0[39m
+[32m    }[39m
+[32m  ][39m
+[32m}[39m
