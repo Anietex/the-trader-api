@@ -1,6 +1,6 @@
 import User from '../models/User';
 
-import PasswordHash from '../../../utils/password-hash';
+import PasswordHash from '../../../app/utils/password-hash';
 import BaseRepository from '../../BaseRepository';
 
 export default class UserRepository extends BaseRepository {

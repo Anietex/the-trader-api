@@ -1,4 +1,3 @@
-import Logger from '@/utils/logger';
 import mongoose from 'mongoose';
 import App from '../models/App';
 import BaseRepository from '../../BaseRepository';

@@ -6,3 +6,9 @@ declare namespace NodeJS{
      __services: string
     }
 }
+
+declare namespace Express{
+  interface Request{
+    user?: any
+  }
+}

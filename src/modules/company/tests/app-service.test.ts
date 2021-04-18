@@ -1,5 +1,4 @@
 import userService from '@/modules/account/services/user';
-import Logger from '@/utils/logger';
 import appService from '../services/app';
 import companyService from '../services/company';
 import apiKeyService from '../services/api-key';

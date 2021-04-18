@@ -1,4 +1,4 @@
-import Logger from '@/utils/logger';
+import Logger from '@/app/utils/logger';
 import CompanyRepository from '@/modules/company/repositories/CompanyRepository';
 import CompanyUserRepository from '@/modules/company/repositories/CompanyUserRepository';
 

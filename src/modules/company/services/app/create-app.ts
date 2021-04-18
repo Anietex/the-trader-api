@@ -1,5 +1,5 @@
 import AppRepository from '@/modules/company/repositories/AppRepository';
-import Logger from '@/utils/logger';
+import Logger from '@/app/utils/logger';
 import AppSettingRepository from '@/modules/company/repositories/AppSettingRepository';
 
 /**

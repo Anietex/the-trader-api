@@ -9,7 +9,7 @@ export default {
     return jwt.sign({ data: payload }, process.env.JWT_SECRET, { expiresIn });
   },
 
-  verify(token: string) {
+  verify(token: string): any {
     // @ts-ignore
     return jwt.verify(token, process.env.JWT_SECRET);
   },

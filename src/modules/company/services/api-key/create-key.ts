@@ -1,7 +1,7 @@
 import ApiKeyRepository from '@/modules/company/repositories/ApiKeyRepository';
 import randomstring from 'randomstring';
-import PasswordHash from '@/utils/password-hash';
-import Logger from '@/utils/logger';
+import PasswordHash from '@/app/utils/password-hash';
+import Logger from '@/app/utils/logger';
 
 export default (apiKeyRepository: ApiKeyRepository) => async (data: any) => {
   try {

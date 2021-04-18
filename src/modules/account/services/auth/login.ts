@@ -1,8 +1,8 @@
-import UserRepository from '../../repositories/UserRepository';
-import Logger from '../../../../utils/logger';
-import PasswordHash from '../../../../utils/password-hash';
-import jwt from '../../../../utils/jwt';
-import CompanyUserRepository from '../../../company/repositories/CompanyUserRepository';
+import UserRepository from '@/modules/account/repositories/UserRepository';
+import Logger from '@/app/utils/logger';
+import PasswordHash from '@/app/utils/password-hash';
+import jwt from '@/app/utils/jwt';
+import CompanyUserRepository from '@/modules/company/repositories/CompanyUserRepository';
 
 export default (userRepository: UserRepository,
   companyUserRepository: CompanyUserRepository) => async (data: any) => {

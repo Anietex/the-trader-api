@@ -7,6 +7,7 @@ import './config/database';
 import './global-types';
 import IndexController from './modules/IndexController';
 import accountRoutes from './modules/account/routes';
+import companyRoutes from './modules/company/routes';
 
 dotenv.config();
 
@@ -20,6 +21,7 @@ app.use(cors());
 
 // Register routes
 app.use('/account', accountRoutes);
+app.use('/company', companyRoutes);
 
 app.all('/', IndexController.index);
 app.all('*', IndexController.pageNotFound);
