@@ -672,3 +672,22 @@
 [32m    }[39m
 [32m  ][39m
 [32m}[39m
+2021-04-19 11:47:13:4713 [31merror[39m: [31mPage not found[39m
+2021-04-19 13:19:25:1925 [31merror[39m: [31mUnable to delete app[39m
+2021-04-19 13:19:29:1929 [31merror[39m: [31mUnable to delete app[39m
+2021-04-19 13:22:34:2234 [31merror[39m: [31mUnable to delete app[39m
+2021-04-19 13:23:37:2337 [31merror[39m: [31mUnable to delete app[39m
+2021-04-19 13:23:41:2341 [31merror[39m: [31mUnable to delete a non existent app[39m
+2021-04-19 13:24:17:2417 [31merror[39m: [31m-- Error deleting App --[39m
+2021-04-19 13:24:17:2417 [31merror[39m: [31mCannot read property 'deleted_at' of null[39m
+2021-04-19 13:24:17:2417 [31merror[39m: [31mUnable to delete a non existent app[39m
+2021-04-19 13:24:18:2418 [31merror[39m: [31m-- Error deleting App --[39m
+2021-04-19 13:24:18:2418 [31merror[39m: [31mCannot read property 'deleted_at' of null[39m
+2021-04-19 13:24:18:2418 [31merror[39m: [31mUnable to delete a non existent app[39m
+2021-04-19 13:24:31:2431 [31merror[39m: [31m-- Error deleting App --[39m
+2021-04-19 13:24:31:2431 [31merror[39m: [31mCannot read property 'deleted_at' of null[39m
+2021-04-19 13:24:31:2431 [31merror[39m: [31mUnable to delete a non existent app[39m
+2021-04-19 13:55:50:5550 [31merror[39m: [31m-- Error deleting App --[39m
+2021-04-19 13:55:50:5550 [31merror[39m: [31mCannot read property 'deleted_at' of null[39m
+2021-04-19 13:55:50:5550 [31merror[39m: [31mUnable to delete a non existent app[39m
+2021-04-19 13:59:23:5923 [31merror[39m: [31mUnable to delete a non existent app[39m

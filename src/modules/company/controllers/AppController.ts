@@ -56,6 +56,20 @@ class AppController extends BaseController {
      }
    }
 
+   public deleteCompanyApp = async (req: Request, res: Response) => {
+     try {
+       const deleted = await appService.deleteApp({ _id: req.params.id });
+       if (deleted) {
+         res.json(this.success(deleted, 'App deleted successfully'));
+       } else {
+         res.status(404).json(this.error('Unable to delete a non existent app', false));
+       }
+     } catch (e) {
+       Logger.error(e);
+       res.status(500).json(this.error('Unable to delete app'));
+     }
+   }
+
    private static transformApp(app: any, prodApiKey:any, testApiKey: any) {
      return {
        name: app.name,

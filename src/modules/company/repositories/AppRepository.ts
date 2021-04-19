@@ -5,11 +5,15 @@ import BaseRepository from '../../BaseRepository';
 export default class AppRepository extends BaseRepository {
   Model = App;
 
-  async getApp(criteria: any) {
+  async getApp(criteria: any, withTrash: false) {
     const filter = { ...criteria };
     if (filter._id) {
       filter._id = mongoose.Types.ObjectId(filter._id);
     }
+    if (!withTrash) {
+      filter.deleted_at = null;
+    }
+
     let app = await this.Model.aggregate(
       [
         { $match: filter },
@@ -51,10 +55,14 @@ export default class AppRepository extends BaseRepository {
     return null;
   }
 
-  public getApps(criteria: any) {
+  public getApps(criteria: any, withTrash = false) {
+    const filter = { ...criteria };
+    if (!withTrash) {
+      filter.deleted_at = null;
+    }
     return this.Model.aggregate(
       [
-        { $match: criteria },
+        { $match: filter },
         {
           $lookup: {
             from: 'apps_setting',

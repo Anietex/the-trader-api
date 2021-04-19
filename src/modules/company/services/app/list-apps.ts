@@ -16,6 +16,7 @@ export default (appRepository: AppRepository) => async (criteria: any) => {
       const testApiKeys = apiKeys.filter((key: any) => key.env === 'test');
       const prodApiKeys = apiKeys.filter((key: any) => key.env === 'production');
       return {
+        id: app._id,
         name: app.name,
         created_by: {
           name: `${app.created_by.first_name} ${app.created_by.last_name}`,

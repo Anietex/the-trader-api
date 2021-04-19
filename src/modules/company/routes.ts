@@ -11,5 +11,6 @@ const router = express.Router();
 router.use('/', userAuthenticated);
 router.post('/app/create', createAppRequest(), validateRequest, AppController.createApp);
 router.get('/app/list', AppController.getCompanyApps);
+router.delete('/app/delete/:id', AppController.deleteCompanyApp);
 
 export default router;

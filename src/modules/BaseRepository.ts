@@ -51,7 +51,22 @@ export default abstract class BaseRepository {
      return Promise.resolve(undefined);
    }
 
-   public delete(criteria: Object) {
-     return this.Model.deleteMany(criteria);
+   public async delete(criteria: Object, softDelete : boolean) {
+     if (softDelete) {
+       const doc = await this.getOne(criteria);
+       if (!doc) return false;
+       if (doc.deleted_at) {
+         return false;
+       }
+       const updated = await this.update(criteria, { deleted_at: new Date() });
+       if (updated) {
+         return true;
+       }
+     } else {
+       const deleteResult = await this.Model.deleteMany(criteria);
+       if (deleteResult) {
+         return deleteResult.deletedCount ? deleteResult.deletedCount > 0 : false;
+       }
+     }
    }
 }
