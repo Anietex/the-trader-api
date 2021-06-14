@@ -12,6 +12,7 @@ describe('Company Service', () => {
     const companyData = {
       name: 'BitTrader',
       user_id: user.id,
+      phone_no: '089884499404',
     };
     const company = await companyService.createCompany(companyData);
     expect(company.name).toEqual(companyData.name);

@@ -15,6 +15,7 @@ describe('App Service', () => {
     const company = await companyService.createCompany({
       name: 'BitTrader',
       user_id: user.id,
+      phone_no: '0490300303',
     });
 
     const app = await appService.createApp({

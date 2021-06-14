@@ -13,6 +13,7 @@ describe('API key service', () => {
     });
     const company = await companyService.createCompany({
       name: 'BitTrader',
+      phone_no: '0848448949',
       user_id: user.id,
     });
     const app = await appService.createApp({

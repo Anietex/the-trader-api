@@ -5,6 +5,14 @@ const schema = new Schema({
     type: String,
     required: true,
   },
+  phone_no: {
+    type: String,
+    required: true,
+  },
+  country: {
+    type: Schema.Types.ObjectId,
+    required: false,
+  },
   status: {
     type: String,
     enum: ['active', 'disabled'],
@@ -24,6 +32,8 @@ schema.set('toJSON', {
     return {
       id: ret._id,
       name: ret.name,
+      phone_no: ret.phone_no,
+      country: ret.country,
       status: ret.status,
     };
   },

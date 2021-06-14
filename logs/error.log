@@ -87,3 +87,30 @@
 2021-04-19 13:55:50:5550 [31merror[39m: [31mCannot read property 'deleted_at' of null[39m
 2021-04-19 13:55:50:5550 [31merror[39m: [31mUnable to delete a non existent app[39m
 2021-04-19 13:59:23:5923 [31merror[39m: [31mUnable to delete a non existent app[39m
+2021-06-14 21:47:17:4717 [31merror[39m: [31mCompany validation failed: phone_no: Path `phone_no` is required.[39m
+2021-06-14 21:47:17:4717 [31merror[39m: [31m-- Error Creating app --[39m
+2021-06-14 21:47:17:4717 [31merror[39m: [31mValidation failed: company: Path `company` is required.[39m
+2021-06-14 21:47:18:4718 [31merror[39m: [31mCompany validation failed: phone_no: Path `phone_no` is required.[39m
+2021-06-14 21:47:44:4744 [31merror[39m: [31mCompany validation failed: phone_no: Path `phone_no` is required.[39m
+2021-06-14 21:47:44:4744 [31merror[39m: [31m-- Error Creating app --[39m
+2021-06-14 21:47:44:4744 [31merror[39m: [31mValidation failed: company: Path `company` is required.[39m
+2021-06-14 21:47:45:4745 [31merror[39m: [31mCompany validation failed: phone_no: Path `phone_no` is required.[39m
+2021-06-14 21:47:50:4750 [31merror[39m: [31mCompany validation failed: phone_no: Path `phone_no` is required.[39m
+2021-06-14 21:47:50:4750 [31merror[39m: [31m-- Error Creating app --[39m
+2021-06-14 21:47:50:4750 [31merror[39m: [31mValidation failed: company: Path `company` is required.[39m
+2021-06-14 21:47:50:4750 [31merror[39m: [31m-- Error Creating API key --[39m
+2021-06-14 21:47:50:4750 [31merror[39m: [31mApiKey validation failed: app: Path `app` is required.[39m
+2021-06-14 22:02:55:255 [31merror[39m: [31mCompany validation failed: phone_no: Path `phone_no` is required.[39m
+2021-06-14 22:02:55:255 [31merror[39m: [31mCompany validation failed: phone_no: Path `phone_no` is required.[39m
+2021-06-14 22:02:55:255 [31merror[39m: [31m-- Error Creating app --[39m
+2021-06-14 22:02:55:255 [31merror[39m: [31mValidation failed: company: Path `company` is required.[39m
+2021-06-14 22:02:55:255 [31merror[39m: [31m-- Error Creating API key --[39m
+2021-06-14 22:02:55:255 [31merror[39m: [31mApiKey validation failed: app: Path `app` is required.[39m
+2021-06-14 22:02:55:255 [31merror[39m: [31m-- Error Creating app --[39m
+2021-06-14 22:02:55:255 [31merror[39m: [31mValidation failed: company: Path `company` is required.[39m
+2021-06-14 22:02:55:255 [31merror[39m: [31m-- Error Creating API key --[39m
+2021-06-14 22:02:55:255 [31merror[39m: [31mApiKey validation failed: app: Path `app` is required.[39m
+2021-06-14 22:02:57:257 [31merror[39m: [31mCompany validation failed: phone_no: Path `phone_no` is required.[39m
+2021-06-14 22:02:57:257 [31merror[39m: [31mCompany validation failed: phone_no: Path `phone_no` is required.[39m
+2021-06-14 22:03:29:329 [31merror[39m: [31mCompany validation failed: phone_no: Path `phone_no` is required.[39m
+2021-06-14 22:03:29:329 [31merror[39m: [31mCompany validation failed: phone_no: Path `phone_no` is required.[39m

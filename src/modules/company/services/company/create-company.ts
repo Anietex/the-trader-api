@@ -7,6 +7,8 @@ export default (companyRepository: CompanyRepository,
   try {
     const company = await companyRepository.create({
       name: data.name,
+      country: data.country,
+      phone_no: data.phone_no,
     });
     await companyUserRepository.create({
       company: company.id,
