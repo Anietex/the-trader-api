@@ -4,19 +4,15 @@ import userService from '../services/user';
 import authService from '../services/auth';
 
 class UserController extends BaseController {
- register = async (req: Request, res: Response) => {
-   try {
-     const user = await userService.createUser(req.body);
-     if (user) {
-       const authData = await authService.login(req.body);
-       res.json(this.success(authData));
-     } else {
-       res.status(500).json(this.error('Unable to create user account at the moment'));
-     }
-   } catch (e) {
-     res.status(500).json(this.error(e));
-   }
- }
+  register = async (req: Request, res: Response) => {
+    try {
+      await userService.createUser(req.body);
+      const authData = await authService.login(req.body);
+      res.json(this.success(authData));
+    } catch (e) {
+      res.status(500).json(this.error(e));
+    }
+  }
 }
 
 export default new UserController();

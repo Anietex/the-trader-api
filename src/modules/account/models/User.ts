@@ -44,9 +44,11 @@ schema.set('toJSON', {
     delete ret.phone_no_verification_code;
     delete ret.email_verification_token;
     delete ret.__v;
+    ret.id = ret._id;
+    delete ret._id;
     return ret;
   },
 });
-const User = mongoose.model('User', schema);
+const UserBase = mongoose.model('User', schema);
 
-export default User;
+export default class User extends UserBase { }

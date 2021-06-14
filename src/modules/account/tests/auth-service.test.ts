@@ -1,6 +1,6 @@
 import authService from '../services/auth';
 import userService from '../services/user';
-import Logger from '../../../utils/logger';
+import Logger from '../../../app/utils/logger';
 
 describe('Auth Service', () => {
   it('Should Login User with correct password', async () => {
@@ -11,7 +11,6 @@ describe('Auth Service', () => {
       password: 'password',
     };
     const user = await userService.createUser(userData);
-
     const authData = await authService.login({
       email: userData.email,
       password: userData.password,

@@ -1,4 +1,4 @@
-import Logger from '../utils/logger';
+import Logger from '../app/utils/logger';
 
 export default abstract class BaseController {
   protected success = (data: any, message: string = '') => ({

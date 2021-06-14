@@ -19,15 +19,6 @@ export default () => [
       if (user) return Promise.reject('Email already exist');
       return true;
     }),
-
-  // body('username', 'Username is required')
-  //   .exists()
-  //   .bail()
-  //   .custom(async (username) => {
-  //     const user = await userRepository.getUser({ username });
-  //     if (user) return Promise.reject('Username already exist');
-  //     return true;
-  //   }),
   body('password_confirmation')
     .custom((password, { req }) => {
       if (password !== req.body.password) {
