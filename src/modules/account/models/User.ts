@@ -26,9 +26,16 @@ const schema = new mongoose.Schema({
     type: String,
     default: 'user',
   },
-  phone_no_verified: Boolean,
-  email_verified: Boolean,
+  phone_no_verified: {
+    type: Boolean,
+    default: false,
+  },
+  email_verified: {
+    type: Boolean,
+    default: false,
+  },
   auth_tokens: Array,
+  email_verification_code: String,
 },
 {
   timestamps:
