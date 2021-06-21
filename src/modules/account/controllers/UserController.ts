@@ -13,6 +13,15 @@ class UserController extends BaseController {
       res.status(500).json(this.error(e));
     }
   }
+
+  verifyEmail = async (req: Request, res: Response) => {
+    try {
+      const message = await userService.verifyEmail(req.body);
+      res.json(this.success(null, message));
+    } catch (e) {
+      res.status(422).json(this.error(e));
+    }
+  }
 }
 
 export default new UserController();

@@ -6,10 +6,12 @@ import AuthController from './controllers/AuthController';
 
 import signupRequest from './requests/sign-up';
 import loginRequest from './requests/login';
+import verifyEmailRequest from './requests/verrify-email';
 
 const router = express.Router();
 
 router.post('/register', signupRequest(), validateRequest, UserController.register);
+router.post('/verify-email', verifyEmailRequest(), validateRequest, UserController.verifyEmail);
 router.post('/login', loginRequest(), validateRequest, AuthController.login);
 
 export default router;
