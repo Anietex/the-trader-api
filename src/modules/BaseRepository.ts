@@ -51,7 +51,8 @@ export default abstract class BaseRepository {
      return Promise.resolve(undefined);
    }
 
-   public async delete(criteria: Object, softDelete : boolean) {
+   // eslint-disable-next-line consistent-return
+   public async delete(criteria: Object, softDelete : boolean = false) {
      if (softDelete) {
        const doc = await this.getOne(criteria);
        if (!doc) return false;

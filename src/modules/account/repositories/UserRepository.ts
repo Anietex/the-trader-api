@@ -4,7 +4,10 @@ import PasswordHash from '../../../app/utils/password-hash';
 import BaseRepository from '../../BaseRepository';
 
 export default class UserRepository extends BaseRepository {
-  Model = User;
+  constructor() {
+    super();
+    this.Model = User;
+  }
 
   getUser = async (criteria: any) => {
     const user = this.Model.findOne(criteria);

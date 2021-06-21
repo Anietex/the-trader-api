@@ -5,7 +5,7 @@ import BaseRepository from '../../BaseRepository';
 export default class AppRepository extends BaseRepository {
   Model = App;
 
-  async getApp(criteria: any, withTrash: false) {
+  async getApp(criteria: any, withTrash = false) {
     const filter = { ...criteria };
     if (filter._id) {
       filter._id = mongoose.Types.ObjectId(filter._id);
