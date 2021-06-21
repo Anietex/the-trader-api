@@ -22,6 +22,15 @@ class UserController extends BaseController {
       res.status(422).json(this.error(e));
     }
   }
+
+  resendEmailVerification = async (req: Request, res: Response) => {
+    try {
+      const message = await userService.resendEmailVerification(req.body);
+      res.json(this.success(null, message));
+    } catch (e) {
+      res.status(422).json(this.error(e));
+    }
+  }
 }
 
 export default new UserController();
