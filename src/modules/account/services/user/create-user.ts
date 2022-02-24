@@ -1,4 +1,4 @@
-import Notification from '@/core/notification/Notification';
+// import Notification from '@/core/notification/Notification';
 import VerifyEmailNotification from '@/modules/account/notifications/VerifyEmailNotification';
 import cryptoRandomString from '@/app/utils/crypto-random-string';
 import AccountVerificationCodeRepository from '@/modules/account/repositories/AccountVerificationCodeRepository';
@@ -25,7 +25,7 @@ export default (userRepository: UserRepository,
       verification_code: verificationCode,
     });
     // Send Email
-    Notification.send(verificationEmail);
+    // Notification.send(verificationEmail);
 
     return user;
   } catch (e) {

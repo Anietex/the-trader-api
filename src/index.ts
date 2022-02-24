@@ -8,6 +8,8 @@ import './global-types';
 import IndexController from './modules/IndexController';
 import accountRoutes from './modules/account/routes';
 import companyRoutes from './modules/company/routes';
+import marketRoutes from './modules/market/routes';
+import walletRoutes from './modules/wallet/routes';
 
 dotenv.config();
 
@@ -21,7 +23,8 @@ app.use(cors());
 
 // Register routes
 app.use('/account', accountRoutes);
-app.use('/company', companyRoutes);
+app.use('/market', marketRoutes);
+app.use('/wallet', walletRoutes);
 
 app.all('/', IndexController.index);
 app.all('*', IndexController.pageNotFound);
