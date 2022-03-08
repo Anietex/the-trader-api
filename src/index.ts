@@ -10,6 +10,7 @@ import accountRoutes from './modules/account/routes';
 import companyRoutes from './modules/company/routes';
 import marketRoutes from './modules/market/routes';
 import walletRoutes from './modules/wallet/routes';
+import settingRoutes from './modules/setting/routes';
 
 dotenv.config();
 
@@ -25,6 +26,7 @@ app.use(cors());
 app.use('/account', accountRoutes);
 app.use('/market', marketRoutes);
 app.use('/wallet', walletRoutes);
+app.use('/setting', settingRoutes);
 
 app.all('/', IndexController.index);
 app.all('*', IndexController.pageNotFound);
