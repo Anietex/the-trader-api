@@ -10,6 +10,12 @@ class MarketDataController extends BaseController {
 
     // this.success(symbols);
   }
+
+  getLastTradedPrice = async (req: Request, res: Response) => {
+    const coins = await marketDataService.getLastTradedPrice();
+
+    res.json(this.success(coins));
+  }
 }
 
 export default new MarketDataController();

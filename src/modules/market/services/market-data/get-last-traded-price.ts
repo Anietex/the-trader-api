@@ -1,7 +1,7 @@
 import BybitAPI from '@/core/services/BybitAPI';
 
 export default (bybitAPI: BybitAPI) => async () => {
-  const holdings = await bybitAPI.getWalletBalance();
+  const lastTradedPrice = await bybitAPI.getLastTradedPrices();
 
-  return holdings;
+  return lastTradedPrice.result;
 };
